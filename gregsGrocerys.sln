@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gregsGrocerys", "gregsGrocerys\gregsGrocerys.csproj", "{DF5DCC4B-BF6E-4569-A280-0FBF3524FB1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Databases", "Databases\Databases.csproj", "{E49F7DE7-0079-4DE4-B0EA-1E1CA1E1D58F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF5DCC4B-BF6E-4569-A280-0FBF3524FB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5DCC4B-BF6E-4569-A280-0FBF3524FB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5DCC4B-BF6E-4569-A280-0FBF3524FB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5DCC4B-BF6E-4569-A280-0FBF3524FB1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E49F7DE7-0079-4DE4-B0EA-1E1CA1E1D58F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E49F7DE7-0079-4DE4-B0EA-1E1CA1E1D58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E49F7DE7-0079-4DE4-B0EA-1E1CA1E1D58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E49F7DE7-0079-4DE4-B0EA-1E1CA1E1D58F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
