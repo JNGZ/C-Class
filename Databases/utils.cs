@@ -106,7 +106,7 @@ namespace Databases
                 OleDbDataAdapter dataAdapter = new OleDbDataAdapter();
                 OleDbCommand command;
                 
-                command = new OleDbCommand("SELECT * FROM tblSaleLines" + " WHERE SaleID = ?", dbConn);
+                command = new OleDbCommand("SELECT * FROM qrySaleLines" + " WHERE SaleID = ?", dbConn);
                 command.Parameters.AddWithValue("SaleID", lblSaleID);
                 dataAdapter.SelectCommand = command;
 
