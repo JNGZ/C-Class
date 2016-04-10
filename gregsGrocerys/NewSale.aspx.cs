@@ -38,7 +38,7 @@ namespace gregsGrocerys
             if (!IsPostBack)
             {
                 OleDbDataAdapter dbAdapter = new OleDbDataAdapter("SELECT * FROM tblProducts", conString);
-                DataSet ds = new DataSet();
+                ds = new DataSet();
                 dbAdapter.Fill(ds);
                 DropDownList1.DataSource = ds.Tables[0];
                 DropDownList1.DataTextField = "ProductDescription";
